@@ -1,0 +1,42 @@
+/* client/src/styles/AdminLogin.css */
+.admin-login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+}
+
+.admin-login-card {
+    background: white;
+    width: 400px;
+    /* Fixed neat width */
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--primary);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login-header h2 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.forgot-link {
+    display: block;
+    text-align: right;
+    margin-top: 0.5rem;
+    color: var(--secondary);
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
